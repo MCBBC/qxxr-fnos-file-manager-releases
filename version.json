@@ -1,429 +1,46 @@
 {
   "schemaVersion": 1,
   "appName": "qxxr-file-manager",
-  "version": "0.1.181",
-  "releaseTag": "v0.1.181",
-  "releasedAt": "2026-10-21T19:45:45.232Z",
+  "version": "0.1.183",
+  "releaseTag": "v0.1.183",
+  "releasedAt": "2026-10-21T21:33:16.245Z",
   "assets": [
     {
       "kind": "app",
       "id": "qxxr-file-manager",
-      "version": "0.1.181",
+      "version": "0.1.183",
       "platform": "x86",
-      "file": "qxxr-file-manager-0.1.181-x86.fpk",
-      "url": "https://github.com/MCBBC/qxxr-fnos-file-manager-releases/releases/download/v0.1.181/qxxr-file-manager-0.1.181-x86.fpk",
-      "sha256": "543c97ed0847d8aba520dbe1fd76526b53a02f6fbe471f8ab3cffb09f80d7144",
-      "size": 33382290
-    },
-    {
-      "kind": "plugin",
-      "id": "archives",
-      "version": "1.0.7",
-      "file": "archives-1.0.7.fmp",
-      "url": "https://github.com/MCBBC/qxxr-fnos-file-manager-releases/releases/download/v0.1.181/archives-1.0.7.fmp",
-      "sha256": "e391ccb856bd71e12b0412fa7f4ed56533e48a75691e24cfce3ecdd2d680c471",
-      "size": 4152402
-    },
-    {
-      "kind": "plugin",
-      "id": "auth-api",
-      "version": "1.0.2",
-      "file": "auth-api-1.0.2.fmp",
-      "url": "https://github.com/MCBBC/qxxr-fnos-file-manager-releases/releases/download/v0.1.181/auth-api-1.0.2.fmp",
-      "sha256": "d3b4d81b417ba9db11cebd69ebdd73d4062c8f975eb4a47075b9adc69c22a3fa",
-      "size": 7665
-    },
-    {
-      "kind": "plugin",
-      "id": "background-jobs",
-      "version": "1.0.7",
-      "file": "background-jobs-1.0.7.fmp",
-      "url": "https://github.com/MCBBC/qxxr-fnos-file-manager-releases/releases/download/v0.1.181/background-jobs-1.0.7.fmp",
-      "sha256": "e3ab76a7e7584eb51d5b125f6628b83647c9d24dbae022660c6ca5f71d94d059",
-      "size": 15310
-    },
-    {
-      "kind": "plugin",
-      "id": "batch-rename",
-      "version": "1.1.3",
-      "file": "batch-rename-1.1.3.fmp",
-      "url": "https://github.com/MCBBC/qxxr-fnos-file-manager-releases/releases/download/v0.1.181/batch-rename-1.1.3.fmp",
-      "sha256": "2c60d56204bebfd7fb8f99b8f098c95be9031eb7ad2dd997ccbe8fd61415ddfb",
-      "size": 19596
-    },
-    {
-      "kind": "plugin",
-      "id": "bookmarks-api",
-      "version": "1.1.0",
-      "file": "bookmarks-api-1.1.0.fmp",
-      "url": "https://github.com/MCBBC/qxxr-fnos-file-manager-releases/releases/download/v0.1.181/bookmarks-api-1.1.0.fmp",
-      "sha256": "27cce4411a2e06a242bb9723e4a79da2e357d9816c1584769119016238cb5ecf",
-      "size": 4270
-    },
-    {
-      "kind": "plugin",
-      "id": "bookmarks",
-      "version": "1.3.1",
-      "file": "bookmarks-1.3.1.fmp",
-      "url": "https://github.com/MCBBC/qxxr-fnos-file-manager-releases/releases/download/v0.1.181/bookmarks-1.3.1.fmp",
-      "sha256": "845dde8f1683d4903916c8e0369f11553240ce922d725ce5a20c372e8195133d",
-      "size": 9432
-    },
-    {
-      "kind": "plugin",
-      "id": "cloud-drives",
-      "version": "1.8.15",
-      "file": "cloud-drives-1.8.15.fmp",
-      "url": "https://github.com/MCBBC/qxxr-fnos-file-manager-releases/releases/download/v0.1.181/cloud-drives-1.8.15.fmp",
-      "sha256": "eca4090efd05e42121745bd0753a5f6c54743ab1b298f7eb51ca04c076d01a72",
-      "size": 256001
-    },
-    {
-      "kind": "plugin",
-      "id": "context-menu",
-      "version": "1.2.10",
-      "file": "context-menu-1.2.10.fmp",
-      "url": "https://github.com/MCBBC/qxxr-fnos-file-manager-releases/releases/download/v0.1.181/context-menu-1.2.10.fmp",
-      "sha256": "3cfea3607b6cd94bafb943a0305b2730cd9898420853480e13a7996a38e66c1e",
-      "size": 16667
-    },
-    {
-      "kind": "plugin",
-      "id": "details",
-      "version": "1.0.7",
-      "file": "details-1.0.7.fmp",
-      "url": "https://github.com/MCBBC/qxxr-fnos-file-manager-releases/releases/download/v0.1.181/details-1.0.7.fmp",
-      "sha256": "c5963a7e49f63aa6af80ff88e0bf5dfddc36879589df27548cb76fb3fc495959",
-      "size": 8413
-    },
-    {
-      "kind": "plugin",
-      "id": "disk-analysis",
-      "version": "1.1.6",
-      "file": "disk-analysis-1.1.6.fmp",
-      "url": "https://github.com/MCBBC/qxxr-fnos-file-manager-releases/releases/download/v0.1.181/disk-analysis-1.1.6.fmp",
-      "sha256": "8c34e669e4309fca56fc7e7bdfaa71d76ab0d6279b373fad32cd5ad6af76b75d",
-      "size": 1864762
-    },
-    {
-      "kind": "plugin",
-      "id": "entrance-animation",
-      "version": "1.0.1",
-      "file": "entrance-animation-1.0.1.fmp",
-      "url": "https://github.com/MCBBC/qxxr-fnos-file-manager-releases/releases/download/v0.1.181/entrance-animation-1.0.1.fmp",
-      "sha256": "afae9d0660003e3803434b70b69842eb5c95c435670910145be9ef75e8a36624",
-      "size": 8386590
-    },
-    {
-      "kind": "plugin",
-      "id": "extensions",
-      "version": "1.14.3",
-      "file": "extensions-1.14.3.fmp",
-      "url": "https://github.com/MCBBC/qxxr-fnos-file-manager-releases/releases/download/v0.1.181/extensions-1.14.3.fmp",
-      "sha256": "1138296df69bc7b7f0acb58bc27d530ef6fe6888111a43ed110878f58c3155f7",
-      "size": 59230
-    },
-    {
-      "kind": "plugin",
-      "id": "file-icons",
-      "version": "1.1.5",
-      "file": "file-icons-1.1.5.fmp",
-      "url": "https://github.com/MCBBC/qxxr-fnos-file-manager-releases/releases/download/v0.1.181/file-icons-1.1.5.fmp",
-      "sha256": "0f9fe85f35bd6a895b89563cb9615b2f460517ab774a86c3bd675fda9e3b36f7",
-      "size": 12787
-    },
-    {
-      "kind": "plugin",
-      "id": "file-transfer",
-      "version": "1.7.5",
-      "file": "file-transfer-1.7.5.fmp",
-      "url": "https://github.com/MCBBC/qxxr-fnos-file-manager-releases/releases/download/v0.1.181/file-transfer-1.7.5.fmp",
-      "sha256": "01874f7f8043c89e6d66cfaf29fe0b7e4003132e08bb774a7711cd936c3baadf",
-      "size": 40089
-    },
-    {
-      "kind": "plugin",
-      "id": "file-view",
-      "version": "1.7.19",
-      "file": "file-view-1.7.19.fmp",
-      "url": "https://github.com/MCBBC/qxxr-fnos-file-manager-releases/releases/download/v0.1.181/file-view-1.7.19.fmp",
-      "sha256": "c4399be5935f703d3fdd3cf5ef419b4032d149fcd2a905ab4a217cf0d5a561e7",
-      "size": 20745
-    },
-    {
-      "kind": "plugin",
-      "id": "files-api",
-      "version": "1.1.3",
-      "file": "files-api-1.1.3.fmp",
-      "url": "https://github.com/MCBBC/qxxr-fnos-file-manager-releases/releases/download/v0.1.181/files-api-1.1.3.fmp",
-      "sha256": "d3d431f8df5ac4823736e8f56444746bf9bc4b75a21e2b5507b9c7e98f49aa68",
-      "size": 10453
-    },
-    {
-      "kind": "plugin",
-      "id": "filesystem",
-      "version": "1.0.7",
-      "file": "filesystem-1.0.7.fmp",
-      "url": "https://github.com/MCBBC/qxxr-fnos-file-manager-releases/releases/download/v0.1.181/filesystem-1.0.7.fmp",
-      "sha256": "20d8d557134c35d65d24b520e54424db363f6adaead5989c6d57220bd2c959a4",
-      "size": 7448
-    },
-    {
-      "kind": "plugin",
-      "id": "http",
-      "version": "1.5.1",
-      "file": "http-1.5.1.fmp",
-      "url": "https://github.com/MCBBC/qxxr-fnos-file-manager-releases/releases/download/v0.1.181/http-1.5.1.fmp",
-      "sha256": "6ba2940ff511120cc57d6d5543529d85375e9c7fd4fdd3a30b4a63828f7b9384",
-      "size": 34463
-    },
-    {
-      "kind": "plugin",
-      "id": "layout",
-      "version": "1.1.13",
-      "file": "layout-1.1.13.fmp",
-      "url": "https://github.com/MCBBC/qxxr-fnos-file-manager-releases/releases/download/v0.1.181/layout-1.1.13.fmp",
-      "sha256": "b9b1ddc8c0eb1faeb6792b298a31dc64b1deee494c442fb24bf887a8c333e055",
-      "size": 28915
-    },
-    {
-      "kind": "plugin",
-      "id": "mounted-drives",
-      "version": "1.1.2",
-      "file": "mounted-drives-1.1.2.fmp",
-      "url": "https://github.com/MCBBC/qxxr-fnos-file-manager-releases/releases/download/v0.1.181/mounted-drives-1.1.2.fmp",
-      "sha256": "46f36b0fa5e38651b557a46f23f49fcf3026f5aeb486e87e3c1d1e2c58fe458d",
-      "size": 5739
-    },
-    {
-      "kind": "plugin",
-      "id": "music-player",
-      "version": "1.8.5",
-      "file": "music-player-1.8.5.fmp",
-      "url": "https://github.com/MCBBC/qxxr-fnos-file-manager-releases/releases/download/v0.1.181/music-player-1.8.5.fmp",
-      "sha256": "5ec6b0debd91881fd7ad80efe3cccc018383ce9aa1d1e981f1dca6b144e3e811",
-      "size": 8286025
-    },
-    {
-      "kind": "plugin",
-      "id": "notifications",
-      "version": "1.0.2",
-      "file": "notifications-1.0.2.fmp",
-      "url": "https://github.com/MCBBC/qxxr-fnos-file-manager-releases/releases/download/v0.1.181/notifications-1.0.2.fmp",
-      "sha256": "9728721b41d2471f7cbc2a851b1c0d50a26948859e362fb428790162348cb5c1",
-      "size": 8679
-    },
-    {
-      "kind": "plugin",
-      "id": "online-update",
-      "version": "1.0.0",
-      "file": "online-update-1.0.0.fmp",
-      "url": "https://github.com/MCBBC/qxxr-fnos-file-manager-releases/releases/download/v0.1.181/online-update-1.0.0.fmp",
-      "sha256": "a77f361d29cc41efa87a4b28eb586353088830d35d0227369e81990316964c30",
-      "size": 17256
-    },
-    {
-      "kind": "plugin",
-      "id": "path-picker",
-      "version": "1.1.8",
-      "file": "path-picker-1.1.8.fmp",
-      "url": "https://github.com/MCBBC/qxxr-fnos-file-manager-releases/releases/download/v0.1.181/path-picker-1.1.8.fmp",
-      "sha256": "c52bc6e0daa2fb32a8a1d8bb959a95d61c7432b466dfe406bff7a7bb3f1dbe45",
-      "size": 15804
-    },
-    {
-      "kind": "plugin",
-      "id": "plugin-access",
-      "version": "1.0.6",
-      "file": "plugin-access-1.0.6.fmp",
-      "url": "https://github.com/MCBBC/qxxr-fnos-file-manager-releases/releases/download/v0.1.181/plugin-access-1.0.6.fmp",
-      "sha256": "29fe320c5611809578df3230ac8a916cc148528766a825b69280b6117abe91b3",
-      "size": 10915
-    },
-    {
-      "kind": "plugin",
-      "id": "plugin-host",
-      "version": "1.10.4",
-      "file": "plugin-host-1.10.4.fmp",
-      "url": "https://github.com/MCBBC/qxxr-fnos-file-manager-releases/releases/download/v0.1.181/plugin-host-1.10.4.fmp",
-      "sha256": "a27ed65429ace743300e41e55cf0585e48e90aea7c940049d5e71227adc79bb2",
-      "size": 27133
-    },
-    {
-      "kind": "plugin",
-      "id": "plugin-injection",
-      "version": "1.0.12",
-      "file": "plugin-injection-1.0.12.fmp",
-      "url": "https://github.com/MCBBC/qxxr-fnos-file-manager-releases/releases/download/v0.1.181/plugin-injection-1.0.12.fmp",
-      "sha256": "5be3341458f1632ae0100d25a3382b714bb4e3dcb756f2b4173324eed714ca36",
-      "size": 94819
-    },
-    {
-      "kind": "plugin",
-      "id": "plugin-network",
-      "version": "2.0.4",
-      "file": "plugin-network-2.0.4.fmp",
-      "url": "https://github.com/MCBBC/qxxr-fnos-file-manager-releases/releases/download/v0.1.181/plugin-network-2.0.4.fmp",
-      "sha256": "5a5f7b950488e53d36b6ef4a0ad0168173168d5ac364cb7d8bb7a4454a9ecfd9",
-      "size": 18525
-    },
-    {
-      "kind": "plugin",
-      "id": "plugin-secrets",
-      "version": "1.0.7",
-      "file": "plugin-secrets-1.0.7.fmp",
-      "url": "https://github.com/MCBBC/qxxr-fnos-file-manager-releases/releases/download/v0.1.181/plugin-secrets-1.0.7.fmp",
-      "sha256": "d79eb4190b96a4928f73d24ae66c62d1fcced6589d0ffaf78de83970b166db4d",
-      "size": 22167
-    },
-    {
-      "kind": "plugin",
-      "id": "plugin-storage",
-      "version": "1.0.6",
-      "file": "plugin-storage-1.0.6.fmp",
-      "url": "https://github.com/MCBBC/qxxr-fnos-file-manager-releases/releases/download/v0.1.181/plugin-storage-1.0.6.fmp",
-      "sha256": "11f8a95953695b434f4c84051bdfa884e60054da6b82c3974b8a976b92419d03",
-      "size": 13937
-    },
-    {
-      "kind": "plugin",
-      "id": "preview",
-      "version": "1.5.6",
-      "file": "preview-1.5.6.fmp",
-      "url": "https://github.com/MCBBC/qxxr-fnos-file-manager-releases/releases/download/v0.1.181/preview-1.5.6.fmp",
-      "sha256": "7857f6f76c86614c7c1930332db35626511d75e789e69f7d6a8de0505bf4e03d",
-      "size": 1494071
-    },
-    {
-      "kind": "plugin",
-      "id": "recycle",
-      "version": "1.3.7",
-      "file": "recycle-1.3.7.fmp",
-      "url": "https://github.com/MCBBC/qxxr-fnos-file-manager-releases/releases/download/v0.1.181/recycle-1.3.7.fmp",
-      "sha256": "ef981ee800ee6a904675faf4039314082b5859f5f5aecc5025355a7d59f8f3de",
-      "size": 18710
-    },
-    {
-      "kind": "plugin",
-      "id": "settings-api",
-      "version": "1.1.0",
-      "file": "settings-api-1.1.0.fmp",
-      "url": "https://github.com/MCBBC/qxxr-fnos-file-manager-releases/releases/download/v0.1.181/settings-api-1.1.0.fmp",
-      "sha256": "788311e6474c4e2be95956221f45441a979397bf6092d84abf138a91251c3a11",
-      "size": 8712
-    },
-    {
-      "kind": "plugin",
-      "id": "settings",
-      "version": "1.10.9",
-      "file": "settings-1.10.9.fmp",
-      "url": "https://github.com/MCBBC/qxxr-fnos-file-manager-releases/releases/download/v0.1.181/settings-1.10.9.fmp",
-      "sha256": "c88dfa0bb5ef0ea3b7293fecc7bc674f1a9eec43f075aa4f80cd15358e261202",
-      "size": 28945
-    },
-    {
-      "kind": "plugin",
-      "id": "sidebar",
-      "version": "1.0.4",
-      "file": "sidebar-1.0.4.fmp",
-      "url": "https://github.com/MCBBC/qxxr-fnos-file-manager-releases/releases/download/v0.1.181/sidebar-1.0.4.fmp",
-      "sha256": "fac7bdc4c3df0177923fcdbdd90ae70778ba8cdaf90eaf0a3648a10b6c78e26b",
-      "size": 5513
-    },
-    {
-      "kind": "plugin",
-      "id": "sqlite",
-      "version": "1.0.2",
-      "file": "sqlite-1.0.2.fmp",
-      "url": "https://github.com/MCBBC/qxxr-fnos-file-manager-releases/releases/download/v0.1.181/sqlite-1.0.2.fmp",
-      "sha256": "975727ef9e4cf16ab9569e2ca86df92ab924e3780e7aa488ce172578bb7bf648",
-      "size": 4890
-    },
-    {
-      "kind": "plugin",
-      "id": "ssh-terminal",
-      "version": "1.2.11",
-      "file": "ssh-terminal-1.2.11.fmp",
-      "url": "https://github.com/MCBBC/qxxr-fnos-file-manager-releases/releases/download/v0.1.181/ssh-terminal-1.2.11.fmp",
-      "sha256": "347d45c06211699420db0212d901374098f47083fede9b5fda5336277b433e28",
-      "size": 339791
-    },
-    {
-      "kind": "plugin",
-      "id": "thumbnails",
-      "version": "1.0.2",
-      "file": "thumbnails-1.0.2.fmp",
-      "url": "https://github.com/MCBBC/qxxr-fnos-file-manager-releases/releases/download/v0.1.181/thumbnails-1.0.2.fmp",
-      "sha256": "cf42e93c2416ff5e9b0fdbe2df429b1fd466ead5ee905cb2ccfbddedcc72c120",
-      "size": 4480
-    },
-    {
-      "kind": "plugin",
-      "id": "toolbar",
-      "version": "1.3.5",
-      "file": "toolbar-1.3.5.fmp",
-      "url": "https://github.com/MCBBC/qxxr-fnos-file-manager-releases/releases/download/v0.1.181/toolbar-1.3.5.fmp",
-      "sha256": "2493c74170fc3f74fa56dce99f606e7d7e2904734ac343fb9337a8b5ca73fddc",
-      "size": 10133
-    },
-    {
-      "kind": "plugin",
-      "id": "wallpaper",
-      "version": "1.1.5",
-      "file": "wallpaper-1.1.5.fmp",
-      "url": "https://github.com/MCBBC/qxxr-fnos-file-manager-releases/releases/download/v0.1.181/wallpaper-1.1.5.fmp",
-      "sha256": "1a276effb4154782dec3e695364a7da1018d353a3c8830c4ed351e441a15b371",
-      "size": 472288
-    },
-    {
-      "kind": "plugin",
-      "id": "weather",
-      "version": "1.1.4",
-      "file": "weather-1.1.4.fmp",
-      "url": "https://github.com/MCBBC/qxxr-fnos-file-manager-releases/releases/download/v0.1.181/weather-1.1.4.fmp",
-      "sha256": "0afa61fe833e8cbf28f49677985604474c7a3a2cc418ee873d46ef0bbc2db311",
-      "size": 349753
-    },
-    {
-      "kind": "plugin",
-      "id": "web",
-      "version": "1.0.2",
-      "file": "web-1.0.2.fmp",
-      "url": "https://github.com/MCBBC/qxxr-fnos-file-manager-releases/releases/download/v0.1.181/web-1.0.2.fmp",
-      "sha256": "9d1864c094aa4620de179223a6a5c632442251bd5ee0cbde69878007fa125ccc",
-      "size": 3224
+      "file": "qxxr-file-manager-0.1.183-x86.fpk",
+      "url": "https://github.com/MCBBC/qxxr-fnos-file-manager-releases/releases/download/v0.1.183/qxxr-file-manager-0.1.183-x86.fpk",
+      "sha256": "7899ac31b64e42b7fb507e58b811149844d610cd6a3c780f2b37a64548df8316",
+      "size": 33385110
     }
   ],
   "changes": [
     {
       "plugin": "online-update",
       "version": "1.0.0",
-      "message": "新增设置中的关于页面、GitHub Releases 应用与插件更新、校验安装及应用更新日志；新增手动汇总日志和发布命令，构建不上传。"
+      "message": "手动发布改为只上传应用 FPK 和版本、日志、校验文件；不再单独上传插件包，插件说明继续汇总到应用日志。"
     },
     {
-      "plugin": "file-view",
-      "version": "1.7.19",
-      "message": "新增文件夹内部缩略图预览并调整文件夹轮廓；图标网格小、中、大尺寸调整为48、72、96像素；支持拖放到回收站并确认。"
+      "plugin": "online-update",
+      "version": "1.1.0",
+      "message": "在线更新接入 GH-Proxy：版本、日志和安装包统一加速，首次测速并保存最快节点，故障后刷新节点重试；新增后台自定义节点、10–60 分钟自动检测和新版本提示。"
     },
     {
-      "plugin": "recycle",
-      "version": "1.3.7",
-      "message": "侧栏回收站支持拖放，多选文件拖动时显示虚线目标和悬停高亮，松开后弹出删除确认框。"
+      "plugin": "online-update",
+      "version": "1.1.1",
+      "message": "修复飞牛安装版关于页面版本显示未知；重新设计软件介绍、版本检查和技术方案，更新日志改用模态框展示，并合并本地与线上历史。"
     },
     {
-      "plugin": "wallpaper",
-      "version": "1.1.5",
-      "message": "接入Scene场景与专属设置侧栏、全局声音和帧率、共享音频频谱；修复场景移除入口、沙箱存储兼容和取消导入误报成功。"
+      "plugin": "settings",
+      "version": "1.10.10",
+      "message": "将关于页面放到设置分类列表最下方。"
     },
     {
-      "plugin": "path-picker",
-      "version": "1.1.8",
-      "message": "统一路径栏与主界面样式，搜索框改为单层，驱动器列表左对齐并仅悬停或选中时显示背景。"
-    },
-    {
-      "plugin": "file-icons",
-      "version": "1.1.5",
-      "message": "修复文件夹后层底部轮廓为圆角，与文件夹内容预览保持一致。"
+      "plugin": "layout",
+      "version": "1.1.14",
+      "message": "发现可用应用更新时，在侧栏设置入口显示新版本角标；安装版本追上后自动清除。"
     }
   ]
 }
