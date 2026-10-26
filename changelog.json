@@ -1,5 +1,81 @@
 [
   {
+    "version": "0.1.190",
+    "releasedAt": "2026-10-26T03:56:27.563Z",
+    "changes": [
+      {
+        "plugin": "games",
+        "version": "1.0.0",
+        "message": "新增游戏插件：双击 FMG 查看详情并直接启动独立 HTTP 高位端口，支持最大化、全屏与关闭回收；提供 info.json 游戏打包 CLI 和独立存档，使用 Balatro 网页版验证。"
+      },
+      {
+        "plugin": "http",
+        "version": "1.5.2",
+        "message": "允许同一 NAS 主机的独立 HTTP 端口用于游戏 iframe，保持游戏静态资源直接加载，不经过应用转发。"
+      },
+      {
+        "plugin": "games",
+        "version": "1.0.1",
+        "message": "文件列表优先显示 FMG 包内的游戏原图标；仅按需读取目录、info.json 和图标，不解压或启动游戏，支持并发限制、缓存及失败回退。"
+      },
+      {
+        "plugin": "file-icons",
+        "version": "1.1.6",
+        "message": "为 FMG 游戏包添加专属手柄图标，并可在后缀图标设置中选择游戏包图标。"
+      },
+      {
+        "plugin": "file-view",
+        "version": "1.7.20",
+        "message": "文件列表和大图标视图支持游戏插件提供的原始游戏图标。"
+      },
+      {
+        "plugin": "details",
+        "version": "1.0.8",
+        "message": "文件详情中的 FMG 图标与文件列表一致，优先显示游戏原图标。"
+      },
+      {
+        "plugin": "games",
+        "version": "1.1.0",
+        "message": "接入 EmulatorJS：支持双击 ROM 和模拟器 FMG 游戏包，提供 10 种机种、按需缓存核心、独立端口运行与当前用户自动存档恢复。"
+      },
+      {
+        "plugin": "file-icons",
+        "version": "1.1.7",
+        "message": "为 NES、SFC、GB/GBC、GBA、GEN 等 ROM 文件显示游戏手柄图标，保留 Markdown 等常用文件关联。"
+      },
+      {
+        "plugin": "games",
+        "version": "1.1.1",
+        "message": "将 EmulatorJS 界面、中文语言、解压组件及全部 10 种机种核心内置到签名资源包，首次启动可离线运行，不再依赖 NAS 连接 CDN。"
+      },
+      {
+        "plugin": "games",
+        "version": "1.1.1",
+        "message": "新增蓝白粉独立本地 ROM 图鉴，内置 No-Intro、Redump PS1 和 FBNeo 共 11 份 DAT，支持拖入文件核对游戏信息、查看封面及导出识别结果"
+      },
+      {
+        "plugin": "games",
+        "version": "1.2.0",
+        "message": "游戏插件内置 ROM 图鉴和 DAT 识别，文件列表与游戏详情默认显示封面，展示识别详情，并将封面、标题图和截图缓存到插件数据目录供离线复用"
+      },
+      {
+        "plugin": "details",
+        "version": "1.0.9",
+        "message": "详细信息侧栏支持显示游戏包和 ROM 的封面预览，未获取到封面时保留原文件图标"
+      },
+      {
+        "plugin": "games",
+        "version": "1.2.1",
+        "message": "游戏详情中的识别信息与封面图片改为左右分栏，扩大详情窗口，窄屏下自动改为上下排列"
+      },
+      {
+        "plugin": "games",
+        "version": "1.2.2",
+        "message": "游戏详情调整为左侧封面、标题图和截图，右侧展示识别信息；窄屏下优先展示图片"
+      }
+    ]
+  },
+  {
     "version": "0.1.185",
     "releasedAt": "2026-10-22T14:16:55.300Z",
     "changes": [
